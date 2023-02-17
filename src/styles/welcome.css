@@ -1,0 +1,48 @@
+.section-welcome {
+    background-image: url("../resources/bg_welcome.jpg");
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.text-welcome {
+    font-family: 'Comfortaa', cursive;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-left: 10%;
+}
+
+.title-welcome {
+    font-size: 40px;
+}
+
+.name-welcome {
+    font-size: 45px;
+}
+
+.profesion-welcome {
+    font-size: 30px;
+}
+
+@media screen and (max-width: 991px) {
+    .section-welcome {
+        background-size: 70%;
+    }
+}
+
+@media screen and (max-width: 695px) {
+    .text-welcome {
+        font-weight: 600;
+    }
+    .title-welcome {
+        font-size: 30px;
+    }
+    
+    .name-welcome {
+        font-size: 35px;
+    }
+    
+    .profesion-welcome {
+        font-size: 20px;
+    }
+}
