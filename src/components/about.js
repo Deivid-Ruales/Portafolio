@@ -1,10 +1,11 @@
+import '../styles/about.css';
+
 export const About = () => {
   return (
     <section className="section section-about">
-      <div className="card text-center">
-        <div className="card-body">
-          <h5 className="card-title">About</h5>
-          <p className="card-text lh-sm">
+      <div className="text-about">
+          <h5>About</h5>
+          <p>
             Técnico en sistemas con conocimiento en el desarrollo de software,
             implementación de estrategias de trabajo en equipo con buen
             desempeño en el aprendizaje autónomo y colaborativo.
@@ -29,7 +30,6 @@ export const About = () => {
             y de la vida, ya que me gusta estar actualizado con las nuevas
             tendencias de esta área y aplicarlas a mis labores diarias.
           </p>
-        </div>
       </div>
     </section>
   )

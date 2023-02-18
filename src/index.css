@@ -1,16 +1,21 @@
-body {
-  margin: 0;
-  font-family: 'Ubuntu', sans-serif;
-  background-color: #fafbfd;
+html{
+  min-height: 100%;
 }
 
-.section {
-  padding: 5px 0;
-  height: 550px;
+body {
+  margin: 0 0 60px 0;
+  font-family: 'Ubuntu', sans-serif;
+  background-color: #fafbfd;
   position: relative;
 }
 
 .navbar {
   background-color: #fafbfd;
   font-weight: 700;
+}
+
+.section {
+  border: 5px solid red;
+  min-height: 700px;
+  margin: 10px 0; 
 }

@@ -5,28 +5,34 @@
     background-repeat: no-repeat;
 }
 
+
+
 .text-welcome {
     font-family: 'Comfortaa', cursive;
+    text-shadow: 0 0 20px #fafbfd;
     font-weight: 700;
-    margin-top: 20px;
-    margin-left: 10%;
+    margin: 80px 0 0 10%;
 }
 
 .title-welcome {
     font-size: 40px;
+    margin: 0;
 }
 
 .name-welcome {
-    font-size: 45px;
+    font-size: 50px;
+    margin: 0;
 }
 
 .profesion-welcome {
-    font-size: 30px;
+    font-size: 25px;
+    margin: 0;
 }
 
 @media screen and (max-width: 991px) {
     .section-welcome {
-        background-size: 70%;
+        background-size: contain;
+        background-position-y: bottom;
     }
 }
 
@@ -34,14 +40,15 @@
     .text-welcome {
         font-weight: 600;
     }
+
     .title-welcome {
         font-size: 30px;
     }
-    
+
     .name-welcome {
         font-size: 35px;
     }
-    
+
     .profesion-welcome {
         font-size: 20px;
     }

@@ -1,0 +1,23 @@
+.section-about {
+    background-image: url("../resources/bg_about_me.jpg");
+    background-size: 600px;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.text-about {
+    text-align: justify;
+    margin: 10%;
+    padding-left: 30%;
+    text-shadow: 0 0 15px #fafbfd;
+}
+
+@media screen and (max-width: 837px) {
+    .section-about {
+        background-position: bottom;
+    }
+
+    .text-about {
+        padding-left: 0;
+    }
+}
