@@ -1,5 +1,5 @@
 .section-about {
-    background-image: url("../resources/bg_about_me.jpg");
+    background-image: url("../resources/images/bg_about_me.png");
     background-size: 600px;
     background-repeat: no-repeat;
     background-position: left;
@@ -9,12 +9,13 @@
     text-align: justify;
     margin: 10%;
     padding-left: 30%;
-    text-shadow: 0 0 15px #fafbfd;
+    text-shadow: 0 0 5px #fafbfd;
 }
 
 @media screen and (max-width: 837px) {
     .section-about {
         background-position: bottom;
+        background-image: url("../resources/images/bg_about_me_opacity.png");
     }
 
     .text-about {

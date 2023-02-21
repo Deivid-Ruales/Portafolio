@@ -1,6 +1,18 @@
 .section-skills {
-    background-image: url("../resources/bg_skills.jpg");
+    /* background-image: url("../resources/images/bg_skills.png");
     background-size: 600px;
     background-repeat: no-repeat;
-    background-position: left;
+    background-position: left; */
+    position: relative;
+}
+
+.container {
+    position: absolute;
+    top: 30%;
+    margin-top: -25px;
+}
+
+.icon-skills {
+    width: 100px;
+    height: 100px;
 }

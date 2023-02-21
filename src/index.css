@@ -3,7 +3,7 @@ html{
 }
 
 body {
-  margin: 0 0 60px 0;
+  margin: 60px 0 60px 0;
   font-family: 'Ubuntu', sans-serif;
   background-color: #fafbfd;
   position: relative;
@@ -11,7 +11,14 @@ body {
 
 .navbar {
   background-color: #fafbfd;
-  font-weight: 700;
+  font-weight: 500;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+.img-logo-navbar {
+  width: 80px;
 }
 
 .section {
