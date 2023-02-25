@@ -1,15 +1,13 @@
 .section-skills {
-    /* background-image: url("../resources/images/bg_skills.png");
-    background-size: 600px;
-    background-repeat: no-repeat;
-    background-position: left; */
-    position: relative;
+    padding: 60px 0;
 }
 
-.container {
-    position: absolute;
-    top: 30%;
-    margin-top: -25px;
+.col {
+    margin: 15px 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .icon-skills {

@@ -3,13 +3,14 @@
     background-size: 600px;
     background-repeat: no-repeat;
     background-position: left;
+    padding: 60px 0;
 }
 
 .text-about {
     text-align: justify;
-    margin: 10%;
+    margin: 0 10%;
     padding-left: 30%;
-    text-shadow: 0 0 5px #fafbfd;
+    text-shadow: 0 0 8px #fafbfd;
 }
 
 @media screen and (max-width: 837px) {

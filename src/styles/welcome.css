@@ -5,13 +5,12 @@
     background-repeat: no-repeat;
 }
 
-
-
 .text-welcome {
     font-family: 'Comfortaa', cursive;
-    text-shadow: 0 0 20px #fafbfd;
+    text-shadow: 0 0 8px #fafbfd;
     font-weight: 700;
     margin: 80px 0 0 10%;
+    text-decoration-style: solid;
 }
 
 .title-welcome {
@@ -27,6 +26,17 @@
 .profesion-welcome {
     font-size: 25px;
     margin: 0;
+}
+
+.div-welcome {
+    position: absolute;
+    bottom: 0;
+}
+
+.geometric-img {
+    width: 600px;
+    left: 0;
+    bottom: 0;
 }
 
 @media screen and (max-width: 991px) {

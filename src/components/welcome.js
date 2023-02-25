@@ -1,4 +1,5 @@
 import "../styles/welcome.css";
+import geometric from "../resources/images/img_figures.png"
 
 export const Welcome = () => {
   return (
@@ -13,6 +14,9 @@ export const Welcome = () => {
         <p className='profesion-welcome'>
           Soy Programador Web
         </p>
+      </div>
+      <div className="div-welcome">
+        <img className="geometric-img" src={geometric}/>
       </div>
     </section>
   );

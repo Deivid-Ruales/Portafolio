@@ -18,66 +18,82 @@ import ts from "../resources/icons/icon_typescript.png"
 
 const dbSkills = [
   {
+    id: 1,
     nombre: "JavaScript",
-    imagen: js 
+    imagen: js
   },
   {
+    id: 2,
     nombre: "Angular",
     imagen: angular
   },
   {
+    id: 3,
     nombre: "Bootstrap",
     imagen: bootstrap
   },
   {
+    id: 4,
     nombre: "CSS",
     imagen: css
   },
   {
+    id: 5,
     nombre: "GIT",
     imagen: git
   },
   {
+    id: 6,
     nombre: "HTML",
     imagen: html
   },
   {
+    id: 7,
     nombre: "Java",
     imagen: java
   },
   {
+    id: 8,
     nombre: "MongoDB",
     imagen: mongo
   },
   {
+    id: 9,
     nombre: "MySQL",
     imagen: mysql
   },
   {
+    id: 10,
     nombre: "Node.js",
-    imagen: node   
+    imagen: node
   },
   {
+    id: 11,
     nombre: "PostgreSQL",
     imagen: postgres
   },
   {
+    id: 12,
     nombre: "Python",
     imagen: python
   },
   {
+    id: 13,
     nombre: "React.js",
-    imagen: react 
+    imagen: react
   },
   {
+    id: 14,
     nombre: "SCRUM",
     imagen: scrum
   },
   {
+    id: 15,
     nombre: "Spring Boot",
     imagen: spring
   },
   {
+    id: 16,
     nombre: "TypeScript",
     imagen: ts
   }
@@ -86,12 +102,16 @@ const dbSkills = [
 export const Skills = () => {
   return (
     <section className="section section-skills">
-      <div className="container text-center">
+      <div className="title-section">
+        <h2>
+          Skills
+        </h2>
+      </div>
+      <div className="container">
         <div className="row">
           {dbSkills.map((item) => (
-            <div className="col">
-              <img className="icon-skills" src={item.imagen} />
-              <p className="text-skills">{item.nombre}</p>
+            <div key={item.id} className="col">
+              <img className="icon-skills" src={item.imagen} title={item.nombre}/>
             </div>
           ))}
         </div>
