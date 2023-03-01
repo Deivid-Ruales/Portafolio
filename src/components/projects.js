@@ -41,15 +41,15 @@ export const Projects = () => {
             <p className="card-text">{proj.details}</p>
             <div className="btn-project">
               {proj.url != "" ?
-                <a href={proj.url} target="_blank" className="btn btn-primary">Ir a la página</a>
+                <a href={proj.url} target="_blank" rel="noreferrer" className="btn btn-primary">Ir a la página</a>
                 : <></>
               }
               {proj.codeFront != "" ?
-                <a href={proj.codeFront} target="_blank" className="btn btn-primary">Código Fuente Frontend</a>
+                <a href={proj.codeFront} target="_blank"  rel="noreferrer" className="btn btn-primary">Código Fuente Frontend</a>
                 : <></>
               }
               {proj.codeBack != "" ?
-                <a href={proj.codeBack} target="_blank" className="btn btn-secondary">Código Fuente Backend</a>
+                <a href={proj.codeBack} target="_blank" rel="noreferrer" className="btn btn-secondary">Código Fuente Backend</a>
                 : <></>
               }
             </div>

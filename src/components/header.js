@@ -29,7 +29,7 @@ export const Header = () => {
                 <a className="nav-link active" aria-current="page" href="#about">Acerca de</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="https://1drv.ms/b/s!Al_caLFKLjf1iYQdMskX2kHOUOVa4Q?e=k4MEkz" title="Abrir CV" target="_blank">CV</a>
+                <a className="nav-link active" aria-current="page" href="https://1drv.ms/b/s!Al_caLFKLjf1iYQdMskX2kHOUOVa4Q?e=k4MEkz" title="Abrir CV" target="_blank" rel="noreferrer">CV</a>
               </li>
             </ul>
           </div>

@@ -111,7 +111,7 @@ export const Skills = () => {
         <div className="row">
           {dbSkills.map((item) => (
             <div key={item.id} className="col">
-              <img className="icon-skills" src={item.imagen} title={item.nombre}/>
+              <img className="icon-skills" src={item.imagen} title={item.nombre} alt={item.nombre}/>
             </div>
           ))}
         </div>
