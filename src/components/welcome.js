@@ -1,5 +1,4 @@
 import "../styles/welcome.css";
-import geometric from "../resources/images/img_figures.png"
 
 export const Welcome = () => {
   return (

@@ -40,15 +40,15 @@ export const Projects = () => {
             <p className="card-text sub-text-card">{proj.development}</p>
             <p className="card-text">{proj.details}</p>
             <div className="btn-project">
-              {proj.url != "" ?
+              {proj.url !== "" ?
                 <a href={proj.url} target="_blank" rel="noreferrer" className="btn btn-primary">Ir a la página</a>
                 : <></>
               }
-              {proj.codeFront != "" ?
+              {proj.codeFront !== "" ?
                 <a href={proj.codeFront} target="_blank"  rel="noreferrer" className="btn btn-primary">Código Fuente Frontend</a>
                 : <></>
               }
-              {proj.codeBack != "" ?
+              {proj.codeBack !== "" ?
                 <a href={proj.codeBack} target="_blank" rel="noreferrer" className="btn btn-secondary">Código Fuente Backend</a>
                 : <></>
               }
