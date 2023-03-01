@@ -104,7 +104,7 @@ export const Skills = () => {
     <section className="section section-skills" id="skills">
       <div className="title-section">
         <h2>
-          Skills
+          Habilidades
         </h2>
       </div>
       <div className="container">
