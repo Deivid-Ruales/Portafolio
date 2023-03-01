@@ -101,7 +101,7 @@ const dbSkills = [
 
 export const Skills = () => {
   return (
-    <section className="section section-skills">
+    <section className="section section-skills" id="skills">
       <div className="title-section">
         <h2>
           Skills

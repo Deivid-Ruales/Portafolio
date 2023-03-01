@@ -14,7 +14,7 @@ const dbExperience = [
 
 export const Experience = () => {
   return (
-    <section className="section section-experience">
+    <section className="section section-experience" id="experience">
       <div className="title-section">
         <h2>
           Experiencia

@@ -26,7 +26,7 @@ const dbProjects = [
 
 export const Projects = () => {
   return (
-    <section className="section section-projects">
+    <section className="section section-projects" id="projects">
       <div className="title-section">
         <h2>
           Projects
