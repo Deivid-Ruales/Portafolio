@@ -1,25 +1,25 @@
 .section-about {
     background-image: url("../resources/images/bg_about_me.png");
-    background-size: 600px;
+    background-size: contain;
     background-repeat: no-repeat;
-    background-position: left;
+    background-position: center;
     padding: 60px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.div-about {
+    opacity: .8;
+    margin: 0 10%;
+    max-width: 500px;
 }
 
 .text-about {
     text-align: justify;
-    margin: 0 10%;
-    padding-left: 30%;
-    text-shadow: 0 0 8px #fafbfd;
+    background-color: rgb(253, 253, 253);
+    max-width: 500px;
+    border-radius: 10px;
+    padding: 20px;
 }
 
-@media screen and (max-width: 837px) {
-    .section-about {
-        background-position: bottom;
-        background-image: url("../resources/images/bg_about_me_opacity.png");
-    }
-
-    .text-about {
-        padding-left: 0;
-    }
-}

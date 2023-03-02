@@ -31,31 +31,36 @@ export const Projects = () => {
         <h2>
           Proyectos
         </h2>
+        <div className="button-welcome">
+          <a href="#navbar">▲</a>
+        </div>
       </div>
-      {dbProjects.map((proj) => (
-        <div key={proj.id} className="card">
-          <img src={proj.image} className="card-img-top" alt={proj.name} />
-          <div className="card-body">
-            <h5 className="card-title">{proj.name}</h5>
-            <p className="card-text sub-text-card">{proj.development}</p>
-            <p className="card-text">{proj.details}</p>
-            <div className="btn-project">
-              {proj.url !== "" ?
-                <a href={proj.url} target="_blank" rel="noreferrer" className="btn btn-primary">Ir a la página</a>
-                : <></>
-              }
-              {proj.codeFront !== "" ?
-                <a href={proj.codeFront} target="_blank"  rel="noreferrer" className="btn btn-primary">Código Fuente Frontend</a>
-                : <></>
-              }
-              {proj.codeBack !== "" ?
-                <a href={proj.codeBack} target="_blank" rel="noreferrer" className="btn btn-secondary">Código Fuente Backend</a>
-                : <></>
-              }
+      <div className="div-projects">
+        {dbProjects.map((proj) => (
+          <div key={proj.id} className="card">
+            <img src={proj.image} className="card-img-top" alt={proj.name} />
+            <div className="card-body">
+              <h5 className="card-title">{proj.name}</h5>
+              <p className="card-text sub-text-card">{proj.development}</p>
+              <p className="card-text">{proj.details}</p>
+              <div className="btn-project">
+                {proj.url !== "" ?
+                  <a href={proj.url} target="_blank" rel="noreferrer" className="btn btn-primary">Ir a la página</a>
+                  : <></>
+                }
+                {proj.codeFront !== "" ?
+                  <a href={proj.codeFront} target="_blank" rel="noreferrer" className="btn btn-primary">Código Fuente Frontend</a>
+                  : <></>
+                }
+                {proj.codeBack !== "" ?
+                  <a href={proj.codeBack} target="_blank" rel="noreferrer" className="btn btn-secondary">Código Fuente Backend</a>
+                  : <></>
+                }
+              </div>
             </div>
           </div>
-        </div>
-      ))}
+        ))}
+      </div>
     </section>
   );
 }

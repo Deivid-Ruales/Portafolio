@@ -106,14 +106,19 @@ export const Skills = () => {
         <h2>
           Habilidades
         </h2>
+        <div className="button-welcome">
+          <a href="#navbar">▲</a>
+        </div>
       </div>
-      <div className="container">
-        <div className="row">
-          {dbSkills.map((item) => (
-            <div key={item.id} className="col">
-              <img className="icon-skills" src={item.imagen} title={item.nombre} alt={item.nombre}/>
-            </div>
-          ))}
+      <div className="div-skills">
+        <div className="container">
+          <div className="row">
+            {dbSkills.map((item) => (
+              <div key={item.id} className="col">
+                <img className="icon-skills" src={item.imagen} title={item.nombre} alt={item.nombre} />
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </section>

@@ -1,5 +1,18 @@
 .section-skills {
+    background-image: url("../resources/images/bg_skills.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
     padding: 60px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.div-skills {
+    opacity: .9;
+    margin: 0 10%;
+    max-width: 500px;
 }
 
 .col {
@@ -8,6 +21,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-color: rgb(253, 253, 253);
+    border-radius: 10px;
 }
 
 .icon-skills {

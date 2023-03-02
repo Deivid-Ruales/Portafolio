@@ -19,9 +19,11 @@ export const Experience = () => {
         <h2>
           Experiencia
         </h2>
+        <div className="button-welcome">
+          <a href="#navbar">▲</a>
+        </div>
       </div>
       <div className="text-section">
-
         <div className="accordion" id="accordionExample">
           {dbExperience.map((job) => (
             <div key={job.id} className="accordion-item">
@@ -54,7 +56,6 @@ export const Experience = () => {
             </div>
           ))}
         </div>
-
       </div>
     </section>
   );

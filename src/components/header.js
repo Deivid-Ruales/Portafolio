@@ -3,7 +3,7 @@ import logo from "../resources/icons/logo_name.PNG"
 export const Header = () => {
   return (
     <>
-      <nav className="navbar navbar-expand-lg" >
+      <nav className="navbar navbar-expand-lg navbar-dark" id="navbar">
         <div className="container-fluid">
           <a className="navbar-brand" href="#welcome">
             <img className="img-logo-navbar" src={logo} alt="DR"/>

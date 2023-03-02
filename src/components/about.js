@@ -7,9 +7,12 @@ export const About = () => {
         <h2>
           Acerca de
         </h2>
+        <div className="button-welcome">
+          <a href="#navbar">▲</a>
+        </div>
       </div>
-      <div className="text-about">
-        <p>
+      <div className="div-about">
+        <p className="text-about">
           Técnico en sistemas con conocimiento en el desarrollo de software, implementación de estrategias de trabajo en equipo con buen desempeño en el aprendizaje autónomo y colaborativo. Inspirado en obtener los mejores resultados, combino experiencia y disposición al nuevo aprendizaje para sacar adelante cada proyecto asignado.
           <br />
           <br />
