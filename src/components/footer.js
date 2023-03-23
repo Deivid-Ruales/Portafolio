@@ -19,7 +19,7 @@ export const Footer = () => {
           </a>
         </div>
         <p className="text-footer">
-          Copyright © 2023&nbsp;Deivid Ruales&nbsp;•&nbsp;Web Developer
+          Copyright © 2023&nbsp;Deivid Ruales&nbsp; • &nbsp;Web Developer
         </p>
       </div>
     </>
