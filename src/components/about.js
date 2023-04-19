@@ -5,7 +5,7 @@ export const About = () => {
     <section className="section section-about" id="about">
       <div className="title-section">
         <h2>
-          Acerca de
+          Acerca de mí
         </h2>
         <div className="button-welcome">
           <a href="#navbar">▲</a>
