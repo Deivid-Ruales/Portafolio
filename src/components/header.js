@@ -17,7 +17,7 @@ export const Header = () => {
                 <a className="nav-link active" aria-current="page" href="#welcome">Inicio</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#projects">Projectos</a>
+                <a className="nav-link active" aria-current="page" href="#projects">Proyectos</a>
               </li>
               <li className="nav-item">
                 <a className="nav-link active" aria-current="page" href="#skills">Habilidades</a>
@@ -26,7 +26,7 @@ export const Header = () => {
                 <a className="nav-link active" aria-current="page" href="#experience">Experiencia</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#about">Acerca de</a>
+                <a className="nav-link active" aria-current="page" href="#about">Sobre mí</a>
               </li>
               <li className="nav-item">
                 <a className="nav-link active" aria-current="page" href="https://1drv.ms/b/s!Al_caLFKLjf1iYQdMskX2kHOUOVa4Q?e=k4MEkz" title="Abrir CV" target="_blank" rel="noreferrer">CV</a>
