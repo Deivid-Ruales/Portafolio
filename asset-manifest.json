@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/Portafolio/static/css/main.a205c9d7.css",
+    "main.js": "/Portafolio/static/js/main.c97ec365.js",
+    "static/js/787.fb36353a.chunk.js": "/Portafolio/static/js/787.fb36353a.chunk.js",
+    "static/media/bg_skills.png": "/Portafolio/static/media/bg_skills.07db33fd270f82953ea1.png",
+    "static/media/bg_about_me.png": "/Portafolio/static/media/bg_about_me.5768571ee2a886b90006.png",
+    "static/media/bg_experience.png": "/Portafolio/static/media/bg_experience.8abe3c7f5938b68432c4.png",
+    "static/media/bg_welcome.png": "/Portafolio/static/media/bg_welcome.ac8eee317df082e44909.png",
+    "static/media/icon_mongo.png": "/Portafolio/static/media/icon_mongo.6170bacefd8a1f69ca74.png",
+    "static/media/bg_projects.png": "/Portafolio/static/media/bg_projects.8cfc3c6bf69fee0eecd4.png",
+    "static/media/artesanias_products.PNG": "/Portafolio/static/media/artesanias_products.12138e136e5938cf0ba9.PNG",
+    "static/media/icon_postgresql.png": "/Portafolio/static/media/icon_postgresql.205c6e1cf88f5fb991e4.png",
+    "static/media/icon_mysql.png": "/Portafolio/static/media/icon_mysql.c10b5bc47b47f99e1ff1.png",
+    "static/media/icon_scrum.png": "/Portafolio/static/media/icon_scrum.7ce4da84448e6abc5742.png",
+    "static/media/icon_spring.png": "/Portafolio/static/media/icon_spring.1493cea40dd5502e5ac7.png",
+    "static/media/icon_css.png": "/Portafolio/static/media/icon_css.3e8913efffadc6a22aaa.png",
+    "static/media/icon_python.png": "/Portafolio/static/media/icon_python.d4b3655af65f2406552e.png",
+    "static/media/icon_whatsapp.png": "/Portafolio/static/media/icon_whatsapp.43a4918296128915afbb.png",
+    "static/media/icon_react.png": "/Portafolio/static/media/icon_react.ac9979693620f0a96231.png",
+    "static/media/icon_bootstrap.png": "/Portafolio/static/media/icon_bootstrap.f5c0eae71c38ef1f75b1.png",
+    "static/media/icon_github.png": "/Portafolio/static/media/icon_github.5376b462a049710b6803.png",
+    "static/media/icon_linkedin.png": "/Portafolio/static/media/icon_linkedin.45394e1bbe628643df3d.png",
+    "static/media/logo_name.PNG": "/Portafolio/static/media/logo_name.b39709bea2b15e94feca.PNG",
+    "static/media/icon_java.png": "/Portafolio/static/media/icon_java.89422da75ef5994f6e3c.png",
+    "static/media/icon_git.png": "/Portafolio/static/media/icon_git.7d664489ed331806ddc8.png",
+    "index.html": "/Portafolio/index.html",
+    "main.a205c9d7.css.map": "/Portafolio/static/css/main.a205c9d7.css.map",
+    "main.c97ec365.js.map": "/Portafolio/static/js/main.c97ec365.js.map",
+    "787.fb36353a.chunk.js.map": "/Portafolio/static/js/787.fb36353a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a205c9d7.css",
+    "static/js/main.c97ec365.js"
+  ]
+}
